@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6055DE13207D9280009D0D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE12207D9280009D0D41 /* AppDelegate.swift */; };
-		6055DE15207D9280009D0D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE14207D9280009D0D41 /* ViewController.swift */; };
+		6055DE15207D9280009D0D41 /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE14207D9280009D0D41 /* SpotDetailViewController.swift */; };
 		6055DE18207D9280009D0D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6055DE16207D9280009D0D41 /* Main.storyboard */; };
 		6055DE1B207D9280009D0D41 /* LiveWaves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE19207D9280009D0D41 /* LiveWaves.xcdatamodeld */; };
 		6055DE1D207D9283009D0D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6055DE1C207D9283009D0D41 /* Assets.xcassets */; };
 		6055DE20207D9283009D0D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6055DE1E207D9283009D0D41 /* LaunchScreen.storyboard */; };
 		6055DE2B207D9284009D0D41 /* LiveWavesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE2A207D9284009D0D41 /* LiveWavesTests.swift */; };
 		6055DE36207D9284009D0D41 /* LiveWavesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE35207D9284009D0D41 /* LiveWavesUITests.swift */; };
+		6055DE44207D951B009D0D41 /* SpotTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE43207D951B009D0D41 /* SpotTableViewController.swift */; };
+		6055DE46207D9751009D0D41 /* SpotInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE45207D9751009D0D41 /* SpotInfo.swift */; };
+		6055DE48207D97D0009D0D41 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE47207D97D0009D0D41 /* Location.swift */; };
+		6055DE4A207EE1DE009D0D41 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE49207EE1DE009D0D41 /* URL+Helpers.swift */; };
+		6055DE4C207EE1FE009D0D41 /* SpotInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE4B207EE1FE009D0D41 /* SpotInfoController.swift */; };
+		6055DE4E207EE766009D0D41 /* exampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6055DE4D207EE766009D0D41 /* exampleResponse.json */; };
+		6055DE8C2081D4B4009D0D41 /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6055DE8B2081D4B4009D0D41 /* WeatherCondition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,7 @@
 /* Begin PBXFileReference section */
 		6055DE0F207D9280009D0D41 /* LiveWaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveWaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6055DE12207D9280009D0D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6055DE14207D9280009D0D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6055DE14207D9280009D0D41 /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 		6055DE17207D9280009D0D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6055DE1A207D9280009D0D41 /* LiveWaves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveWaves.xcdatamodel; sourceTree = "<group>"; };
 		6055DE1C207D9283009D0D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		6055DE31207D9284009D0D41 /* LiveWavesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveWavesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6055DE35207D9284009D0D41 /* LiveWavesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWavesUITests.swift; sourceTree = "<group>"; };
 		6055DE37207D9284009D0D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6055DE43207D951B009D0D41 /* SpotTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewController.swift; sourceTree = "<group>"; };
+		6055DE45207D9751009D0D41 /* SpotInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotInfo.swift; sourceTree = "<group>"; };
+		6055DE47207D97D0009D0D41 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6055DE49207EE1DE009D0D41 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
+		6055DE4B207EE1FE009D0D41 /* SpotInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotInfoController.swift; sourceTree = "<group>"; };
+		6055DE4D207EE766009D0D41 /* exampleResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleResponse.json; sourceTree = "<group>"; };
+		6055DE8B2081D4B4009D0D41 /* WeatherCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +114,15 @@
 			isa = PBXGroup;
 			children = (
 				6055DE12207D9280009D0D41 /* AppDelegate.swift */,
-				6055DE14207D9280009D0D41 /* ViewController.swift */,
+				6055DE14207D9280009D0D41 /* SpotDetailViewController.swift */,
 				6055DE16207D9280009D0D41 /* Main.storyboard */,
+				6055DE43207D951B009D0D41 /* SpotTableViewController.swift */,
+				6055DE45207D9751009D0D41 /* SpotInfo.swift */,
+				6055DE8B2081D4B4009D0D41 /* WeatherCondition.swift */,
+				6055DE49207EE1DE009D0D41 /* URL+Helpers.swift */,
+				6055DE4B207EE1FE009D0D41 /* SpotInfoController.swift */,
+				6055DE4D207EE766009D0D41 /* exampleResponse.json */,
+				6055DE47207D97D0009D0D41 /* Location.swift */,
 				6055DE1C207D9283009D0D41 /* Assets.xcassets */,
 				6055DE1E207D9283009D0D41 /* LaunchScreen.storyboard */,
 				6055DE21207D9283009D0D41 /* Info.plist */,
@@ -235,6 +256,7 @@
 				6055DE20207D9283009D0D41 /* LaunchScreen.storyboard in Resources */,
 				6055DE1D207D9283009D0D41 /* Assets.xcassets in Resources */,
 				6055DE18207D9280009D0D41 /* Main.storyboard in Resources */,
+				6055DE4E207EE766009D0D41 /* exampleResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6055DE46207D9751009D0D41 /* SpotInfo.swift in Sources */,
+				6055DE4C207EE1FE009D0D41 /* SpotInfoController.swift in Sources */,
 				6055DE1B207D9280009D0D41 /* LiveWaves.xcdatamodeld in Sources */,
-				6055DE15207D9280009D0D41 /* ViewController.swift in Sources */,
+				6055DE44207D951B009D0D41 /* SpotTableViewController.swift in Sources */,
+				6055DE8C2081D4B4009D0D41 /* WeatherCondition.swift in Sources */,
+				6055DE4A207EE1DE009D0D41 /* URL+Helpers.swift in Sources */,
+				6055DE15207D9280009D0D41 /* SpotDetailViewController.swift in Sources */,
+				6055DE48207D97D0009D0D41 /* Location.swift in Sources */,
 				6055DE13207D9280009D0D41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
